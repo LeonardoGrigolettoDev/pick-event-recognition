@@ -8,7 +8,7 @@ from io import BytesIO
 app = Flask(__name__)
 known_faces = {}
 
-@app.route('/process-face', methods=['POST'])
+@app.route('/encode-face', methods=['POST'])
 def register_face():
     face_id = request.form.get("id")
     image_file = request.files.get("image")
