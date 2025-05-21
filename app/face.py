@@ -6,6 +6,7 @@ import numpy as np
 import face_recognition
 import json
 import ast
+from app import base
 
 
 class FaceAI:
